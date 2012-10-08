@@ -82,6 +82,7 @@ Set ``SHOP_CATEGORIES_CATEGORY_MODEL`` to ``app.models.category.Category``
 Register your custom category model in admin.py:
 
 ::
+
     from shop_categories.admin import ProductCategoryAdmin
 
     admin.site.register(Category, ProductCategoryAdmin)
